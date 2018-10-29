@@ -1,11 +1,21 @@
 html {
   box-sizing: border-box;
-  font-family: Merriweather;
+  font-family: Merriweather, serif;
   line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header {
@@ -18,16 +28,24 @@ img {
 
 h1 {
   font-size: 2rem;
-  font-weight: bold;
   color: #fff;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
 }
 
 nav li {
   list-style-type: none;
 }
 
-a {
+a:link {
   font-size: 1.125rem;
   color: #fff;
   text-decoration: none;
+  border-style: solid;
+  border-color: #a63f38;
 }
