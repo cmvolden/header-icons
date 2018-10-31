@@ -63,6 +63,10 @@ li:nth-child(2) {
   border-color: #a63f38;
 }
 
+a:hover {
+  background-color: #a63f38;
+}
+
 li:hover {
   background-color: #a63f38;
 }
